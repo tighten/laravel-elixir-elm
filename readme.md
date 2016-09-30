@@ -1,6 +1,6 @@
 # Laravel Elixir Elm Integration
 
-This package provides Webpack support for compiling Elm in Laravel Elixir 6.
+A package to provide support for compiling Elm in Laravel Elixir 6
 
 ## Installation
 
