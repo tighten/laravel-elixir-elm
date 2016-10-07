@@ -16,5 +16,5 @@ Elixir.extend('elm', (dir) => {
 
             deferred.resolve();
         });
-    }).watch(`${elmPath}/main.elm`);
+    }).watch(`${elmPath}/Main.elm`);
 });
