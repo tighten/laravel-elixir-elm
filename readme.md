@@ -23,3 +23,7 @@ elixir(function(mix) {
     mix.elm('example'); // resources/assets/elm/example/Main.js
 });
 ```
+
+## License
+
+[View the license](https://github.com/tightenco/laravel-elixir-elm/blob/master/LICENSE) for this repo.
