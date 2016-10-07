@@ -2,6 +2,8 @@
 
 A package to provide support for compiling Elm in Laravel Elixir 6
 
+Recommended: [laravel-elm](https://github.com/tightenco/laravel-elm)
+
 ## Installation
 
 ```
@@ -18,6 +20,6 @@ var elixir = require('laravel-elixir');
 require('laravel-elixir-elm');
 
 elixir(function(mix) {
-    mix.elm('example'); // resources/assets/elm/example/main.js
+    mix.elm('example'); // resources/assets/elm/example/Main.js
 });
 ```
