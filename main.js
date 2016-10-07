@@ -6,7 +6,7 @@ Elixir.extend('elm', (dir) => {
     const elmPath = `${Elixir.config.assetsPath}/elm/${dir}`;
 
     return new Elixir.Task('elm', () => {
-        const command = `elm make main.elm --output ../../../../${Elixir.config.publicPath}/js/${dir}.js`;
+        const command = `elm make Main.elm --output ../../../../${Elixir.config.publicPath}/js/${dir}.js`;
 
         let deferred = Q.defer();
 
