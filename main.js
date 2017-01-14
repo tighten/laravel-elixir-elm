@@ -10,7 +10,9 @@ Elixir.extend('elm', (dir) => {
 
         let deferred = Q.defer();
 
-        return exec(`cd ${elmPath}; ${command}`, (err, stdout, stderr) => {
+        return exec(`${command}`, {
+            cwd: elmPath,
+        }, (err, stdout, stderr) => {
             console.log(stdout);
             console.log(stderr);
 
