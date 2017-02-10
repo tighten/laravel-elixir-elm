@@ -1,3 +1,5 @@
+# _No longer updated with Laravel 5.4_
+
 # Laravel Elixir Elm Integration
 
 A package to provide support for compiling Elm in Laravel Elixir 6
